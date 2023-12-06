@@ -1,16 +1,27 @@
 
-import { Container, Profile } from './styles'
+import { Container, Profile} from './styles'
 
 export function Header() {
     return(
         <Container>
             <Profile>
-                <img src="https://github.com/rafaelokra.png" 
-                alt="Foto do usuario" />
+            <h1>RocketMovies</h1>
 
-                <div>
-                    <span>Rafael Pereira</span>
-                </div>
+            <input
+              type="text" 
+              placeholder='Pesquisar pelo título' 
+             />
+
+             <div>
+               <strong>Rafael Pereira</strong>
+
+                <img
+                  src="https://github.com/rafaelokra.png"   
+                  alt="Foto do usuario"  
+                 />
+             
+
+            </div>   
             </Profile>
         
         </Container>
